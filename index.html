@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+  <script src="build/js/export.js"></script>
+    <title>Sam's Trusty Calculator</title>
+  </head>
+  <body>
+    <!--Calculator-->
+    <div class="container">
+    <h1>Sam's Trusty Calculator</h1>
+    <form id="calc">
+      <div class="form-group">
+        <label for="input1">1st number:</label>
+        <input id="input1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="input2">2nd number:</label>
+        <input id="input2" class="form-control" type="text">
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="add" required>
+          add
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="subtract" required>
+          subtract</p
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="multiply" required>
+          multiply
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="divide" required>
+          divide
+        </label>
+      </div>
+      <button type="submit" class="btn">Add!</button>
+    </form>
+    <div id="output">
+    </div>
+  </div>
+  </body>
+</html>
